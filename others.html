@@ -38,17 +38,17 @@
             <div class="row py-2 bg-success-subtle pb-0 sticky-top d-none d-md-flex"> <!-- Navigation Bar -->
                 <ul class="d-flex list-unstyled justify-content-end mt-2">
                     <li>
-                        <a href="#home">
+                        <a href="index.html#home">
                             <button class="btn btn-outline-primary">Home</button>
                         </a>
                     </li>
                     <li>
-                        <a href="#product">
+                        <a href="index.html#product">
                             <button class="btn btn-outline-primary">Products</button>
                         </a>
                     </li>
                     <li>
-                        <a href="#about">
+                        <a href="index.html#about">
                             <button class="btn btn-outline-primary">About Us</button>
                         </a>
                     </li>
@@ -68,23 +68,34 @@
             </div> <!-- Navigation End-->
     
     
-            <div class="row py-2 bg-success-subtle pb-2 d-md-none"> <!-- Navigation Bar for small display -->
-                <div class="row pe-0 col-12 d-flex flex-column" role="group" aria-label="Basic mixed styles example">
-                    <a href="#home" type="button" class="p-1">
-                        <button class="btn btn-outline-primary font-small col-12">Home</button>
-                    </a>
-                    <a href="#home" type="button" class="p-1">
-                        <button class="btn btn-outline-primary font-small col-12">Product</button>
-                    </a>
-                    <a href="#home" type="button" class="p-1">
-                        <button class="btn btn-outline-primary font-small col-12">About Us</button>
-                    </a>
-                    <a href="#home" type="button" class="p-1">
-                        <button class="btn btn-outline-primary font-small col-12">Contact</button>
-                    </a>
-                    <a href="#home" type="button" class="p-1 pt-3">
-                        <button class="btn btn-outline-success font-small col-12">Sign Up</button>
-                    </a>
+            <div class="row py-2 bg-success-subtle pb-2 d-md-none sticky-top"> <!-- Navigation Bar for small display -->
+                <div class="row pe-0 col-12 d-flex justify-content-end" role="group" aria-label="Basic mixed styles example">
+    
+                    <ul class="navbar-nav col-2 d-flex text-end">                   
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="index.html#home"><button class="btn btn-outline-primary col-12">Home</button></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="index.html#product"><button class="btn btn-outline-primary col-12">Products</button></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="index.html#about"><button class="btn btn-outline-primary col-12">About Us</button></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="contact.html"><button class="btn btn-outline-primary col-12">Contact</button></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item mt-3" href="sign-up.html"><button class="btn btn-outline-success col-12">Sign Up</button></a>
+                                </li>
+                                
+                            </ul>
+                        </li>            
+                    </ul>                 
                 </div>
             </div> <!-- Navigation End-->
 
@@ -212,6 +223,7 @@
         </footer>
 
             
-    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
