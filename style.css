@@ -1,7 +1,8 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 19px;
 }
+
 
 .headers {
     position: sticky !important;
@@ -11,10 +12,7 @@
     margin-right: 15px;
 }
 
-/* .navigation {
-    position: sticky !important;
-    z-index: 1000;
-} */
+
 
 
 
@@ -103,3 +101,4 @@ footer {
     height: 228px !important;
     width: 228px !important;
 }
+
