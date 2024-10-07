@@ -14,18 +14,84 @@
 
 
 
-
-
 .poscard-body {
     overflow: hidden;
     position: relative;
     width: 30%;
-    height: 300px;
+    height: 12.5rem;
     border-radius: 15px;
     border: 2px solid #4c288f;
     text-decoration: none;
     color: black
 }
+
+
+
+
+
+
+
+
+
+/* ------------------------------------ */
+/* --------------Duplicate------------- */
+/* ------------------------------------ */
+
+
+.pos-dup-body {
+    overflow: hidden;
+    position: relative;
+    /* width: 30%; */
+    /* height: 12.5rem; */
+    border-radius: 15px;
+    border: 2px solid #4c288f;
+    text-decoration: none;
+    color: black
+}
+
+.pos-dup-body:hover {
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out;
+}
+
+.pos-dup-container {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    height: 100%;
+    align-items : center;
+}
+
+.pos-dup-bg {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.pos-dup-content {
+    position: relative;
+}
+
+
+/* ------------------------------------ */
+/* ------------Duplicate-END----------- */
+/* ------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
 
 .poscard-bg {
     opacity: 0.4;
