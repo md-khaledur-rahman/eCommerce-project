@@ -13,18 +13,24 @@
 
     <body>
         <div class="container-fluid mt-0">
-            <header id="home">
+
+            <header id="home"> <!-- Header Section --> <!-- Header responsive complete-->
                 <div class="row bg-dark-subtle p-2"> <!-- logo and company name-->
-                    <div class="col-2">
+    
+                    <!-- logo -->
+                    <div class="col-2 d-none d-md-block">
                         <a href="index.html#home">
                             <img src="pictures/logo.png" width="100" height="100" alt="" class="rounded-circle">
                         </a>
-                    </div> <!-- logo -->
-                    <div class="col d-flex align-items-center justify-content-center display-3">
+                    </div> 
+    
+                    <!-- Company Name -->
+                    <div class="col d-flex align-items-center justify-content-center display-3"> <!-- company name -->
                         Khaled Tech
-                    </div> <!-- company name -->
-
-                    <div class="col-3 h6 p-0">                        
+                    </div> 
+    
+                    <!-- Phone & Email -->
+                    <div class="col-3 h6 p-0 d-none d-lg-block">                        
                         <p class="pt-3 mb-0"><small>Phone: +8801777277561</small></p>
                         <p><small>Email: mdkhaledurrahmangazi@gmail.com</small></p>                        
                     </div>
@@ -98,43 +104,43 @@
             </div> <!-- Navigation End-->
 
 
-            
+
 
             <div class="row bg-dark-subtle"> <!-- Input Form -->
-                <form action="submit_form.php" method="post" class="form d-flex flex-column align-items-center col-8 mx-auto py-5 bg-info-subtle">
+                <form action="submit_form.php" method="post" class="form d-flex flex-column align-items-center col-12 col-sm-9 col-md-8 mx-auto py-5 bg-info-subtle">
                     
-                    <div class="row col-8">
-                        <div class="mb-3 col-6 ps-0">
+                    <div class="row col-11 col-sm-9 col-md-8">
+                        <div class="mb-3 col-12 col-md-6 ps-0 pe-0 pe-md-2">
                             <label for="name" class="form-label">First Name:</label>
                             <input class="form-control" type="text" id="name" name="name" placeholder="Enter Your Name" required>
                         </div>
-                        <div class="mb-3 col-6 pe-0">
+                        <div class="mb-3 col-12 col-md-6 ps-0 pe-0">
                             <label for="name" class="form-label">Last Name:</label>
                             <input class="form-control" type="text" id="name" name="name" placeholder="Enter Your Name" required>
                         </div>
                     </div>
 
-                    <div class="mb-3 col-8">
+                    <div class="mb-3 col-11 col-sm-9 col-md-8">
                         <label for="email" class="form-label">Email:</label>
                         <input type="email" id="email" name="email" class="form-control" placeholder="Enter Your Email" required>
                     </div>
 
-                    <div class="mb-3 col-8">
+                    <div class="mb-3 col-11 col-sm-9 col-md-8">
                         <label for="mob" class="form-label">Mobile:</label>
                         <input type="text" id="mob" name="Mobile" class="form-control" placeholder="Enter Your Mobile" required>
                     </div>
 
                     
-                    <div class="row col-8 p-0 m-0">
-                        <div class="ps-0 col-6">
+                    <div class="row col-11 col-sm-9 col-md-8 p-0 m-0">
+                        <div class="mb-3 col-12 col-xl-6 ps-0 pe-0 pe-md-2">
                             <label for="gender" class="form-label col-4">Gender:</label>
                             <div class="col-8">
                                 <input type="radio" id="gender" name="gender" required> Male
-                                <input type="radio" id="gender" name="gender" class="ms-3" required> Female
+                                <input type="radio" id="gender" name="gender" class="ms-2" required> Female
                             </div>
                         </div>
                         
-                        <div class="mb-3 col-6 pe-0">
+                        <div class="mb-3 col-12 col-xl-6 ps-0 pe-0">
                             <label for="gender" class="form-label">Occupation:</label>
                             
                             <select name="" id="" class="form-select">
@@ -147,24 +153,23 @@
 
 
 
-                    <div class="mb-3 col-8">
+                    <div class="mb-3 col-11 col-sm-9 col-md-8">
                         <label for="password" class="form-label">Password:</label>
                         <input type="password" id="password" name="password" class="form-control" placeholder="Set a Passowrd" required>
                     </div>
 
-                    <div class="mb-3 col-8">
+                    <div class="mb-3 col-11 col-sm-9 col-md-8">
                         <label for="password" class="form-label">Confirm Password:</label>
                         <input type="password" id="password" name="password" class="form-control" placeholder="Confirm Your Passowrd" required>
                     </div>
 
-                    <div class="col-8 d-grid">
+                    <div class="col-11 col-sm-9 col-md-8 d-grid">
                         <button type="submit" class="btn btn-primary rounded col-12">Submit</button>
                     </div>
                 </form>
             </div>
 
 
-            <P>YOU ARE FOOL</P>
 
 
             <footer class="row pt-3 text-center">
